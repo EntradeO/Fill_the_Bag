@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 80px;
+  background: #5e97b8;
+  background: -moz-linear-gradient(-60deg, #5e97b8 0%, #5a90b0 37%, #65a0bf 37%, #79acd4 61%, #8ec5e8 61%, #a3cce6 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #5e97b8), color-stop(37%, #5a90b0), color-stop(37%, #65a0bf), color-stop(61%, #79acd4), color-stop(61%, #8ec5e8), color-stop(100%, #a3cce6));
+  background: -webkit-linear-gradient(-60deg, #5e97b8 0%, #5a90b0 37%, #65a0bf 37%, #79acd4 61%, #8ec5e8 61%, #a3cce6 100%);
+  background: -o-linear-gradient(-60deg, #5e97b8 0%, #5a90b0 37%, #65a0bf 37%, #79acd4 61%, #8ec5e8 61%, #a3cce6 100%);
+  background: -ms-linear-gradient(-60deg, #5e97b8 0%, #5a90b0 37%, #65a0bf 37%, #79acd4 61%, #8ec5e8 61%, #a3cce6 100%);
+  background: linear-gradient(159deg, #5e97b8 0%, #5a90b0 37%, #65a0bf 37%, #79acd4 61%, #8ec5e8 61%, #a3cce6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e97b8', endColorstr='#a3cce6', GradientType=1 ); }
+  .container-header .linea-Bianca {
+    position: absolute;
+    bottom: 0.25rem;
+    width: 100%;
+    height: 0.5rem;
+    background-color: #ffffff; }
+  .container-header .imageLogo {
+    position: relative;
+    left: 19px;
+    width: auto;
+    height: 105px;
+    padding-bottom: 30px; }
+  .container-header a {
+    padding-left: 25px;
+    z-index: 1; }
+  .container-header .logo {
+    width: auto;
+    height: 23px; }
+  .container-header h3 {
+    padding: 20px 0 0 23px;
+    margin: 0;
+    color: #601438;
+    font-family: 'Comfortaa', sans-serif; }
+
+.container-footer {
+  display: flex;
+  z-index: 10;
+  text-align: center;
+  border-radius: 0 30px 0 0;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 67px;
+  background: #3a5161;
+  background: -moz-linear-gradient(-25deg, #3a5161 0%, #3a5161 63%, #445d73 63%, #445d73 83%, #2d4a5e 83%, #2d4a5e 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #3a5161), color-stop(63%, #3a5161), color-stop(63%, #445d73), color-stop(83%, #445d73), color-stop(83%, #2d4a5e), color-stop(100%, #2d4a5e));
+  background: -webkit-linear-gradient(-25deg, #3a5161 0%, #3a5161 63%, #445d73 63%, #445d73 83%, #2d4a5e 83%, #2d4a5e 100%);
+  background: -o-linear-gradient(-25deg, #3a5161 0%, #3a5161 63%, #445d73 63%, #445d73 83%, #2d4a5e 83%, #2d4a5e 100%);
+  background: -ms-linear-gradient(-25deg, #3a5161 0%, #3a5161 63%, #445d73 63%, #445d73 83%, #2d4a5e 83%, #2d4a5e 100%);
+  background: linear-gradient(115deg, #3a5161 0%, #3a5161 63%, #445d73 63%, #445d73 83%, #2d4a5e 83%, #2d4a5e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a5161', endColorstr='#2d4a5e', GradientType=1 ); }
+  .container-footer .bgc-footer-left {
+    position: absolute;
+    width: 50vw;
+    height: 67px;
+    background: #445d73;
+    background: -moz-linear-gradient(65deg, #445d73 0%, #445d73 58%, #3a5161 58%, #3a5161 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #445d73), color-stop(58%, #445d73), color-stop(58%, #3a5161), color-stop(100%, #3a5161));
+    background: -webkit-linear-gradient(65deg, #445d73 0%, #445d73 58%, #3a5161 58%, #3a5161 100%);
+    background: -o-linear-gradient(65deg, #445d73 0%, #445d73 58%, #3a5161 58%, #3a5161 100%);
+    background: -ms-linear-gradient(65deg, #445d73 0%, #445d73 58%, #3a5161 58%, #3a5161 100%);
+    background: linear-gradient(65deg, #445d73 0%, #445d73 58%, #3a5161 58%, #3a5161 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#445d73', endColorstr='#3a5161', GradientType=1 ); }
+  .container-footer ul {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-self: flex-end;
+    z-index: 1;
+    margin: 0;
+    padding: 10px; }
+  .container-footer li {
+    list-style: none; }
+  .container-footer .footerButton {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #94d1ff;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 12px; }
+    .container-footer .footerButton img {
+      padding: 1px;
+      width: auto;
+      height: 30px; }
+    .container-footer .footerButton.is-pressed {
+      transform: scale(0.8);
+      transform-origin: center;
+      -webkit-transition: all 500ms cubic-bezier(0, 0.645, 0, 1);
+      /* older webkit */
+      -webkit-transition: all 500ms cubic-bezier(0, 0.645, 0, 1.32);
+      -moz-transition: all 500ms cubic-bezier(0, 0.645, 0, 1.32);
+      -o-transition: all 500ms cubic-bezier(0, 0.645, 0, 1.32);
+      transition: all 500ms cubic-bezier(0, 0.645, 0, 1.32);
+      /* custom */
+      -webkit-transition-timing-function: cubic-bezier(0, 0.645, 0, 1);
+      /* older webkit */
+      -webkit-transition-timing-function: cubic-bezier(0, 0.645, 0, 1.32);
+      -moz-transition-timing-function: cubic-bezier(0, 0.645, 0, 1.32);
+      -o-transition-timing-function: cubic-bezier(0, 0.645, 0, 1.32);
+      transition-timing-function: cubic-bezier(0, 0.645, 0, 1.32);
+      /* custom */ }
+    .container-footer .footerButton.is-relased {
+      -webkit-transition: all 500ms cubic-bezier(0.995, 0, 0, 1);
+      /* older webkit */
+      -webkit-transition: all 500ms cubic-bezier(0.995, 0, 0, 1.65);
+      -moz-transition: all 500ms cubic-bezier(0.995, 0, 0, 1.65);
+      -o-transition: all 500ms cubic-bezier(0.995, 0, 0, 1.65);
+      transition: all 500ms cubic-bezier(0.995, 0, 0, 1.65);
+      /* custom */
+      -webkit-transition-timing-function: cubic-bezier(0.995, 0, 0, 1);
+      /* older webkit */
+      -webkit-transition-timing-function: cubic-bezier(0.995, 0, 0, 1.65);
+      -moz-transition-timing-function: cubic-bezier(0.995, 0, 0, 1.65);
+      -o-transition-timing-function: cubic-bezier(0.995, 0, 0, 1.65);
+      transition-timing-function: cubic-bezier(0.995, 0, 0, 1.65);
+      /* custom */ }
+  body:not(.cart_full) .container-footer .full {
+    display: none; }
+  body.cart_full .container-footer .empty {
+    display: none; }
+
+.ListContainer {
+  margin: 0 2.5vw 0 2.5vw;
+  width: 95vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #4a6880; }
+  .ListContainer .ItemDetails {
+    padding-left: 15px;
+    line-height: 20px;
+    width: 50vw;
+    align-self: center; }
+  .ListContainer .AddOrder {
+    display: flex;
+    justify-content: center; }
+  .ListContainer .button {
+    width: 25px;
+    padding-right: 10px; }
+  .ListContainer .Name {
+    margin: 19px 0 3px 0;
+    color: #601438;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    font-family: "Comfortaa", sans-serif; }
+  .ListContainer .Descriptions {
+    margin: 3px 0 15px 0;
+    color: #4a6880;
+    text-align: left;
+    font-size: 10px;
+    font-family: "Comfortaa", sans-serif; }
+  .ListContainer .Price {
+    display: flex;
+    align-self: center;
+    margin: 1px 0 0 4vw;
+    color: #601438;
+    font-size: 16px;
+    font-family: "Comfortaa", sans-serif; }
+
+.Counter {
+  color: #4a6880;
+  align-self: center;
+  font-size: 19px;
+  margin: 0;
+  font-family: "Comfortaa", sans-serif; }
+
+.CartCounter {
+  background-color: #601438;
+  display: flex;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  font-size: 11px;
+  line-height: 21px;
+  border-radius: 15px; }
+
+.iconCarrel {
+  display: none;
+  position: absolute;
+  width: 50px;
+  height: auto; }
+
+.food {
+  display: inline-table;
+  animation: swipe 1s forwards; }
+
+@keyframes swipe {
+  0% {
+    opacity: 1;
+    left: 44vw;
+    top: 40vh;
+    transform: scale(1); }
+  40% {
+    opacity: 1;
+    left: 44vw;
+    top: 81vh;
+    transform: scale(0.5); }
+  75% {
+    opacity: 1;
+    left: 44vw;
+    top: 75vh;
+    transform: scale(0.8); }
+  100% {
+    opacity: 0;
+    left: 44vw;
+    top: 90vh;
+    transform: scale(0.1); } }
+.BackGroundMenu {
+  display: flex;
+  position: sticky;
+  top: 80px;
+  justify-content: center;
+  width: 100vw;
+  height: 6vh;
+  background-color: #4a6880;
+  border-radius: 0 0 0 25px; }
+  .BackGroundMenu a {
+    width: 15px;
+    align-self: center; }
+  .BackGroundMenu h2 {
+    color: #ffffff;
+    font-family: "Comfortaa", sans-serif;
+    padding: 0 10px;
+    margin: 0;
+    font-size: 18px;
+    align-self: center; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,22 @@
+.BackGroundMenu {
+    display: flex;
+    position: sticky;
+    top: 80px;
+    justify-content: center;
+    width: 100vw;
+    height: 6vh;
+    background-color: $medium-blue;
+    border-radius: 0 0 0 25px;
+    a{
+        width: 15px;
+        align-self: center;
+    }
+    h2 {
+        color: $white;
+        font-family: $primaryFont;
+        padding: 0 10px;
+        margin: 0;
+        font-size: 18px;
+        align-self: center;
+    }
+}

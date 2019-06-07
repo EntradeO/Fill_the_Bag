@@ -1,0 +1,99 @@
+.ListContainer {
+  margin: 0 2.5vw 0 2.5vw;
+  width: 95vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $medium-blue;
+  .ItemDetails {
+    padding-left: 15px;
+    line-height: 20px;
+    width: 50vw;
+    align-self: center;
+  }
+  .AddOrder{
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    width: 25px;
+    padding-right: 10px;
+  }
+  .Name {
+    margin: 19px 0 3px 0;
+    color: $bordeaux;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    font-family: $primaryFont;
+  }
+  .Descriptions {
+    margin: 3px 0 15px 0;
+    color: $medium-blue;
+    text-align: left;
+    font-size: 10px;
+    font-family: $primaryFont;
+  }
+  .Price {
+    display: flex;
+    align-self: center;
+    margin: 1px 0 0 4vw;
+    color: #601438;
+    font-size: 16px;
+    font-family: $primaryFont;
+  }
+}
+.Counter {
+  color: #4a6880;
+  align-self: center;
+  font-size: 19px;
+  margin: 0;
+  font-family: "Comfortaa", sans-serif;
+}
+.CartCounter {
+  background-color: $bordeaux;
+  display: flex;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  font-size: 11px;
+  line-height: 21px;
+  border-radius: 15px;
+}
+.iconCarrel {
+  display: none;
+  position: absolute;
+  width: 50px;
+  height: auto;
+}
+.food {
+  display: inline-table;
+  animation: swipe 1s forwards;
+}
+@keyframes swipe {
+  0% {
+    opacity: 1;
+    left:44vw;
+    top: 40vh;
+    transform: scale(1);
+  }
+  40% {
+    opacity: 1;
+    left:44vw;
+    top: 81vh;
+    transform: scale(0.5);
+  }
+  75% {
+    opacity: 1;
+    left:44vw;
+    top: 75vh;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 0;
+    left:44vw;
+    top: 90vh;
+    transform: scale(0.1);
+  }
+}

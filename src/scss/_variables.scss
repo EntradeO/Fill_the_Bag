@@ -1,0 +1,84 @@
+$dark-blue: #263642;
+$medium-blue: #4a6880;
+$blue: #6f9cbf;
+$light-blue: #94d1ff;
+$orange: #fd8f31;
+$yellow: #fec652;
+$bordeaux: #601438;
+$light-bordeaux: #bc2a77;
+$black: #1f2c36;
+$white:#ffffff;
+$primaryFont: 'Comfortaa', sans-serif;
+
+@mixin ButtonMenu {
+    @include GradientButton;
+    overflow: hidden;
+    height: 24vh;
+    display: flex;
+    justify-content: flex-end;
+    color:$white;
+    font-size: 25px;
+    padding-right: 23px;
+    font-family: 'Comfortaa', sans-serif;
+          &.is-pressed{
+              transform: scale(0.95);
+              transform-origin: center;
+              @include animationPress();
+          }
+          &.is-relased{
+              @include animationRelased();
+          }
+          h2 {
+            position: absolute;
+            margin: 19px 0;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+            z-index: 3;
+          }
+          img{
+            width: auto;
+            padding: 10px;
+            height: 100%;
+            position: relative;
+            left: 42px;
+            z-index: 2;
+          }
+}
+
+@mixin GradientButton {
+    background: rgba(104,167,204,1);
+    background: -moz-linear-gradient(left, rgba(104,167,204,1) 0%, rgba(61,110,138,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(104,167,204,1)), color-stop(100%, rgba(61,110,138,1)));
+    background: -webkit-linear-gradient(left, rgba(104,167,204,1) 0%, rgba(61,110,138,1) 100%);
+    background: -o-linear-gradient(left, rgba(104,167,204,1) 0%, rgba(61,110,138,1) 100%);
+    background: -ms-linear-gradient(left, rgba(104,167,204,1) 0%, rgba(61,110,138,1) 100%);
+    background: linear-gradient(to right, rgba(104,167,204,1) 0%, rgba(61,110,138,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#68a7cc', endColorstr='#3d6e8a', GradientType=1 );
+}
+
+@mixin animationPress {
+    -webkit-transition: all 500ms cubic-bezier(0.000, 0.645, 0.000, 1); /* older webkit */
+    -webkit-transition: all 500ms cubic-bezier(0.000, 0.645, 0.000, 1.320); 
+    -moz-transition: all 500ms cubic-bezier(0.000, 0.645, 0.000, 1.320); 
+    -o-transition: all 500ms cubic-bezier(0.000, 0.645, 0.000, 1.320); 
+    transition: all 500ms cubic-bezier(0.000, 0.645, 0.000, 1.320); /* custom */
+
+    -webkit-transition-timing-function: cubic-bezier(0.000, 0.645, 0.000, 1); /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.000, 0.645, 0.000, 1.320); 
+    -moz-transition-timing-function: cubic-bezier(0.000, 0.645, 0.000, 1.320); 
+    -o-transition-timing-function: cubic-bezier(0.000, 0.645, 0.000, 1.320); 
+    transition-timing-function: cubic-bezier(0.000, 0.645, 0.000, 1.320); /* custom */
+    
+}
+@mixin animationRelased {
+    -webkit-transition: all 500ms cubic-bezier(0.995, 0.000, 0.000, 1); /* older webkit */
+    -webkit-transition: all 500ms cubic-bezier(0.995, 0.000, 0.000, 1.650); 
+    -moz-transition: all 500ms cubic-bezier(0.995, 0.000, 0.000, 1.650); 
+    -o-transition: all 500ms cubic-bezier(0.995, 0.000, 0.000, 1.650); 
+    transition: all 500ms cubic-bezier(0.995, 0.000, 0.000, 1.650); /* custom */
+
+    -webkit-transition-timing-function: cubic-bezier(0.995, 0.000, 0.000, 1); /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.995, 0.000, 0.000, 1.650); 
+    -moz-transition-timing-function: cubic-bezier(0.995, 0.000, 0.000, 1.650); 
+    -o-transition-timing-function: cubic-bezier(0.995, 0.000, 0.000, 1.650); 
+    transition-timing-function: cubic-bezier(0.995, 0.000, 0.000, 1.650); /* custom */
+}
