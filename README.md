@@ -1,6 +1,6 @@
 # FILL THE BAG | SISTEM FOR ADDING PRODUCTS TO THE SHOPPING CART FOR WANU APP
 
-![alt text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/Screenshot.png)
+![alt text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/Screenshot.png "Screenshot")
 
 WANU is the prototype of a web app designed to transform the classic paper menu into a 2.0 menu,<br>
 the APP allows the customer to order directly from his smartphone with a simple click
