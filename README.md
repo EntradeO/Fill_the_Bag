@@ -24,29 +24,29 @@ Create a folder and follow the steps:
 
 ..* Install REACT:
 
-... npx create-react-app [nome dell'app]
-... cd my-app
-... npm start
+... `npx create-react-app [nome dell'app]`
+... `cd my-app`
+... `npm start`
 
 for more details:(https://reactjs.org/)
 
 ..* Install the library inside the ** React ** folder [Node-SASS](https://www.google.com):
 
-... npm install node-sass
+... `npm install node-sass`
 
 ..* Install STRAPI:
 
-... npm install strapi@beta -g
+... `npm install strapi@beta -g`
 
 then create the new database
 
-... strapi new cms --quickstart
+... `strapi new cms --quickstart`
 
 for more details:(https://strapi.io/)
 
 ..* Install the following plugin in the React for call to API STRAPI recommends
 
-... npm i axios
+... `npm i axios`
 
 If both steps are successful you are ready to download and configure the component that will take care of the rental system.
 
