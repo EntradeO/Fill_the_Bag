@@ -1,4 +1,4 @@
-#FILL THE BAG | SISTEM FOR ADDING PRODUCTS TO THE SHOPPING CART FOR WANU APP
+# FILL THE BAG | SISTEM FOR ADDING PRODUCTS TO THE SHOPPING CART FOR WANU APP
 
 ![alt text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/Screenshot.png)
 
@@ -12,49 +12,49 @@ In this documentation I will illustrate the realization of the material componen
 
 -------------------------------------------------------------------------------------------
 
-##USED TECHNOLOGY
+## USED TECHNOLOGY
 
 For the development of this project it was decided to use REACT for the frontend part and STRAPI for the backend part.
 
 --------------------------------------------------------------------------------------------
 
-##START
+## START
 
 Create a folder and follow the steps:
 
-..*Install REACT:
+..* Install REACT:
 
-...npx create-react-app [nome dell'app]
-...cd my-app
-...npm start
+... npx create-react-app [nome dell'app]
+... cd my-app
+... npm start
 
 for more details:(https://reactjs.org/)
 
-..*Install the library inside the ** React ** folder [Node-SASS](https://www.google.com):
+..* Install the library inside the ** React ** folder [Node-SASS](https://www.google.com):
 
-...npm install node-sass
+... npm install node-sass
 
-..*Install STRAPI:
+..* Install STRAPI:
 
-...npm install strapi@beta -g
+... npm install strapi@beta -g
 
 then create the new database
 
-...strapi new cms --quickstart
+... strapi new cms --quickstart
 
 for more details:(https://strapi.io/)
 
-..*Install the following plugin in the React for call to API STRAPI recommends
+..* Install the following plugin in the React for call to API STRAPI recommends
 
-...npm i axios
+... npm i axios
 
 If both steps are successful you are ready to download and configure the component that will take care of the rental system.
 
 --------------------------------------------------------------------------------
 
-##CONFIGURE STRAPI BACKEND
+## CONFIGURE STRAPI BACKEND
 
-..*Enter Strapi and add Categories and Products under Content Type Builder and filling them with the following fields.
+..* Enter Strapi and add Categories and Products under Content Type Builder and filling them with the following fields.
 
 ![alt text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella4.png)
 
