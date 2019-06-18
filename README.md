@@ -24,8 +24,8 @@ Create a folder and follow the steps:
 
 Install REACT:
 
-`npx create-react-app [nome dell'app]`
-`cd my-app`
+`npx create-react-app [nome dell'app]`<br>
+`cd my-app`<br>
 `npm start`
 
 for more details:(https://reactjs.org/)
