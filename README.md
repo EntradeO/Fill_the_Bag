@@ -59,15 +59,15 @@ Enter Strapi and add Categories and Products under Content Type Builder and fill
 
 ![alt-text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella4.png)
 
-![alt-text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella1.png)
+![alt-text](https://github.com/EntradeO/Fill_the_Bag/blob/master/src/img/Tabella1.png)
 
 Open Roles and Permission and set accessibility in *Public section all
 
-![alt-text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella3.png)
+![alt-text](https://github.com/EntradeO/Fill_the_Bag/blob/master/src/img/tabella3.png)
 
 Create some table in Products and FILL THE BAG will be ready.
 
-![alt-text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella2.png)
+![alt-text](https://github.com/EntradeO/Fill_the_Bag/blob/master/src/img/Tabella2.png)
 
 ---------------------------------------------------
 
