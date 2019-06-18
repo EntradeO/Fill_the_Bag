@@ -1,4 +1,4 @@
-# FILL THE BAG | SISTEM FOR ADDING PRODUCTS TO THE SHOPPING CART FOR WANU APP
+## FILL THE BAG | SISTEM FOR ADDING PRODUCTS TO THE SHOPPING CART FOR WANU APP
 
 ![alt text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/Screenshot.png "Screenshot")
 
@@ -12,13 +12,13 @@ In this documentation I will illustrate the realization of the material componen
 
 -------------------------------------------------------------------------------------------
 
-## USED TECHNOLOGY
+### USED TECHNOLOGY
 
 For the development of this project it was decided to use REACT for the frontend part and STRAPI for the backend part.
 
 --------------------------------------------------------------------------------------------
 
-## START
+### START
 
 Create a folder and follow the steps:
 
@@ -52,7 +52,7 @@ If both steps are successful you are ready to download and configure the compone
 
 --------------------------------------------------------------------------------
 
-## CONFIGURE STRAPI BACKEND
+### CONFIGURE STRAPI BACKEND
 
 Enter Strapi and add Categories and Products under Content Type Builder and filling them with the following fields.
 
