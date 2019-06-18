@@ -1,5 +1,5 @@
 ## FILL THE BAG
-## SISTEM FOR ADDING PRODUCTS TO THE SHOPPING CART FOR WANU APP
+### SISTEM FOR ADDING PRODUCTS TO THE SHOPPING CART FOR WANU APP
 
 ![alt-text](https://github.com/EntradeO/Fill_the_Bag/blob/master/src/img/Screenshot.png "Screenshot")
 
