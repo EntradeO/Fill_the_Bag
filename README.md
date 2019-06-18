@@ -57,17 +57,17 @@ If both steps are successful you are ready to download and configure the compone
 
 Enter Strapi and add Categories and Products under Content Type Builder and filling them with the following fields.
 
-![alt text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella4.png)
+![alt-text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella4.png)
 
-![alt text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella1.png)
+![alt-text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella1.png)
 
 Open Roles and Permission and set accessibility in *Public section all
 
-![alt text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella3.png)
+![alt-text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella3.png)
 
 Create some table in Products and FILL THE BAG will be ready.
 
-![alt text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella2.png)
+![alt-text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella2.png)
 
 ---------------------------------------------------
 
