@@ -57,7 +57,7 @@ If both steps are successful you are ready to download and configure the compone
 
 Enter Strapi and add Categories and Products under Content Type Builder and filling them with the following fields.
 
-![alt-text](https://github.com/EntradeO/Fill_the_Bag/tree/master/src/img/tabella4.png)
+![alt-text](https://github.com/EntradeO/Fill_the_Bag/blob/master/src/img/tabella4.png)
 
 ![alt-text](https://github.com/EntradeO/Fill_the_Bag/blob/master/src/img/Tabella1.png)
 
